@@ -1,0 +1,15 @@
+/******************************************************************
+Theme Name: My Theme
+Theme URI: http://#
+Description: This site was built using the Bones Development Theme. 
+Author: Your Name Here
+Author URI: http://www.yoururlhere.com
+Version: 1.0
+Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
+
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+******************************************************************/
+.sticky {}          /* DO NOT EDIT THIS */
+.gallery-caption {} /* THESE ARE USELESS */
+.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
