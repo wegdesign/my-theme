@@ -8,12 +8,11 @@ define( 'THEME_URI', get_template_directory_uri());
 define( 'THEME_DIR', get_template_directory() );
 define( 'THEME_FRAMEWORK_DIR', THEME_DIR . '/framework/' );
 define( 'THEME_FRAMEWORK_URI', THEME_URI . '/framework/' );
-define( 'THEME_FRAMEWORK_ADMIN', THEME_FRAMEWORK_DIR . 'admin/' );
 define( 'THEME_FRAMEWORK_JS', THEME_FRAMEWORK_URI . 'js/' );
 define( 'THEME_FRAMEWORK_CSS', THEME_FRAMEWORK_URI . 'css/' );
 
 //Theme Admin
-require_once (THEME_FRAMEWORK_ADMIN . 'theme-admin.php');
+require_once (THEME_FRAMEWORK_DIR . 'theme-admin.php');
 
 //Theme Init
 require_once (THEME_FRAMEWORK_DIR . 'theme-init.php');
