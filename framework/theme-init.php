@@ -30,7 +30,11 @@ if (!function_exists('wd_setup')) {
 		
 		add_filter('widget_text', 'do_shortcode');
 		
-		
+		// cleaning up random code around images
+  		add_filter( 'the_content', 'wd_filter_ptags_on_images' );
+  		
+  		// cleaning up excerpt
+  		add_filter( 'excerpt_more', 'wd_excerpt_more' );
 
 	}
 
