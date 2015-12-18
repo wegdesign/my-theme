@@ -3,7 +3,7 @@
 /************* ACTIVE SIDEBARS ********************/
 
  // adding sidebars to Wordpress (these are created in functions.php)
-  add_action( 'widgets_init', 'wd_register_sidebars' );
+add_action( 'widgets_init', 'wd_register_sidebars' );
 
 // Sidebars & Widgetizes Areas
 function wd_register_sidebars() {
