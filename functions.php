@@ -17,6 +17,9 @@ require_once (THEME_FRAMEWORK_DIR . 'theme-admin.php');
 //Theme Init
 require_once (THEME_FRAMEWORK_DIR . 'theme-init.php');
 
+//Theme Options
+require_once (THEME_FRAMEWORK_DIR . 'theme-options.php');
+
 //Theme Metaboxes
 require_once (THEME_FRAMEWORK_DIR . 'theme-metaboxes.php');
 
